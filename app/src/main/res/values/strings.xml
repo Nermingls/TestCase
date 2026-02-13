@@ -1,3 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <string name="app_name">TestCase</string>
+
+    <!-- Welcome -->
+    <string name="welcome_title">Welcome to Corevo Digital Signage</string>
+    <string name="welcome_description">To get started, we need to check if you have our mobile app installed on your device.</string>
+    <string name="welcome_yes">Yes, I have the app</string>
+    <string name="welcome_no">No, I need to download it</string>
+    <string name="welcome_footer">The Corevo Mobile app is required to register and manage your digital signage player.</string>
+
+    <!-- Register Player -->
+    <string name="register_title">Register Player</string>
+    <string name="register_description">Scan with your phone camera or from Corevo Mobile application.</string>
+    <string name="register_footer">Scan with your mobile device</string>
+
+    <string name="manual_title">Or register manually</string>
+    <string name="manual_description">To register this player, scan the QR code or enter the code manually.</string>
+    <string name="manual_button">Type a code</string>
+    <string name="manual_footer">New to the platform? Enter your code manually</string>
+
+    <!-- Dialogs -->
+    <string name="dialog_download_title">Download App</string>
+    <string name="dialog_download_message">
+        Please visit the Corevo website or your devices app store to download the Corevo Mobile application.
+    </string>
+    <string name="dialog_ok">OK</string>
+
+    <string name="dialog_enter_code_title">Enter Code</string>
+    <string name="dialog_enter_code_hint">Enter player code</string>
+    <string name="dialog_enter_code_register">Register</string>
+    <string name="dialog_enter_code_cancel">Cancel</string>
+
+    <string name="dialog_registered_title">Player Registered</string>
+    <string name="dialog_registered_message">Player registered with code: %1$s</string>
+
 </resources>
