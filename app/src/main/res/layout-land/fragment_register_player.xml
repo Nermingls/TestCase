@@ -46,6 +46,7 @@
                     app:cardBackgroundColor="@color/icon_background"
                     app:cardCornerRadius="10dp"
                     app:cardElevation="0dp"
+                    app:strokeColor="@android:color/transparent"
                     app:layout_constraintStart_toStartOf="@+id/qrTitle"
                     app:layout_constraintTop_toTopOf="parent">
 
