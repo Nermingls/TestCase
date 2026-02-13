@@ -23,6 +23,7 @@
             app:cardBackgroundColor="@color/card_background"
             app:cardCornerRadius="16dp"
             app:cardElevation="0dp"
+            app:strokeColor="@android:color/transparent"
             app:layout_constraintBottom_toTopOf="@+id/cardManual"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -41,6 +42,7 @@
                     app:cardBackgroundColor="@color/icon_background"
                     app:cardCornerRadius="10dp"
                     app:cardElevation="0dp"
+                    app:strokeColor="@android:color/transparent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent">
 
@@ -115,7 +117,7 @@
                     <ImageView
                         android:layout_width="14dp"
                         android:layout_height="14dp"
-                        android:src="@android:drawable/ic_menu_call"
+                        android:src="@drawable/smartphone"
                         app:tint="@color/white_60" />
 
                     <com.google.android.material.textview.MaterialTextView
@@ -139,6 +141,7 @@
             app:cardBackgroundColor="@color/card_background"
             app:cardCornerRadius="16dp"
             app:cardElevation="0dp"
+            app:strokeColor="@android:color/transparent"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -164,6 +167,7 @@
                         app:cardBackgroundColor="@color/red_dark"
                         app:cardCornerRadius="10dp"
                         app:cardElevation="0dp"
+                        app:strokeColor="@android:color/transparent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent">
 
